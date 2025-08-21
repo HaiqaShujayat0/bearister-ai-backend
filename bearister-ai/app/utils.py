@@ -14,8 +14,7 @@ load_dotenv()
 # Load env variables
 SECRET_KEY = os.getenv("SECRET_KEY", "fallback_secret")
 ALGORITHM = os.getenv("ALGORITHM", "HS256")
-# POSTMARK_API_TOKEN = os.getenv("POSTMARK_API_TOKEN")
-POSTMARK_API_TOKEN ="4de7af7a-ee54-450d-b790-c744374b9770"
+
 FRONTEND_URL = os.getenv("FRONTEND_URL", "http://localhost:3000")
 
 
